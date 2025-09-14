@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import { useRecipeStore } from '../recipeStore';
+import { useRecipeStore } from './recipeStore';
 
 const EditRecipeForm = ({
     recipe = { id: null, title: '', description: '' },
