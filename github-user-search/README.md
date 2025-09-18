@@ -1,12 +1,24 @@
-# React + Vite
+# Working with APIs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In the “Working with APIs” project, you will develop a GitHub User Search Application using React. This project will guide you through integrating with the GitHub API, handling user authentication, and deploying your application to a web hosting platform. You will gain hands-on experience in API interactions, advanced HTTP networking, and deploying web applications.
 
-Currently, two official plugins are available:
+## Learning Objectives
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+By the end of this project, you will be able to:
 
-## Expanding the ESLint configuration
+### 1. Set Up a React Project for API Integration:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Create and configure a new React application for integrating with external APIs, specifically the GitHub API.
+
+### 2. Develop Basic and Advanced Search Features Using GitHub API:
+
+- Implement basic search functionality to fetch and display GitHub user data.
+- Enhance the search functionality to include advanced filtering criteria, such as location and repository count.
+
+### 3. Improve User Interface and Experience:
+
+- Utilize Tailwind CSS to style your application, ensuring a responsive and visually appealing design.
+
+### 4. Deploy the Application to a Web Hosting Platform:
+
+- Deploy your application to Vercel, making it publicly accessible and ensuring it performs well under real-world conditions.
