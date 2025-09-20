@@ -43,7 +43,7 @@ function Search() {
                 const data = await advancedUserSearch(searchParams);
 
                 if (data.length === 0) {
-                    setError("No user found matching your criteria!");
+                    setError("Looks like we cant find the user");
                     return;
                 }
 
