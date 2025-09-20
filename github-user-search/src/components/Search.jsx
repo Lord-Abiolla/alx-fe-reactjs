@@ -14,7 +14,7 @@ function Search() {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        //Are search criteria provided
+        // Are search criteria provided
         if (!username.trim() && !location.trim() && !minRepos.trim()) {
             setError("Provide at least one search criteria");
             return;
@@ -28,14 +28,11 @@ function Search() {
             const hasAdvancedFilters = location.trim() || minRepos.trim();
 
             if (!hasAdvancedFilters && username.trim()) {
-                console.log("Performing simple user search!");
 
                 const data = await fetchUserData(username);
                 addUser(data);
 
             } else {
-
-                console.log("Performing advanced user search!");
 
                 const searchParams = {};
 

@@ -26,14 +26,11 @@ export async function advancedUserSearch({ username, location, minRepos }) {
         if (location) query += `location:${location}`;
         if (minRepos) query += `repos:>=${minRepos}`;
 
-        const encodedQuery = encodeURIComponent(query);
-
         const response = await Axios.get(`https://api.github.com/search/users?q=${encodedQuery}`, {
             headers: {
                 Authorization: `token ${token}`
             },
         });
-        console.log(response.data.items);
         return response.data.items;
 
     } catch (error) {
