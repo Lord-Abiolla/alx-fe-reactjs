@@ -1,14 +1,13 @@
 import { useState } from 'react';
 import Search from './components/Search';
-import './App.css'
+import './index.css'
 
 function App() {
 
   return (
-    <>
-      <h1>GitHub User Search</h1>
+    <div className="text-center p-6 mt-3">
       <Search />
-    </>
+    </div>
   )
 }
 
