@@ -8,12 +8,36 @@ function AddRecipeForm() {
         steps: ""
     });
 
+    const [errors, setErrors] = useState({});
+
     const handleChange = (e) => {
         setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }));
     };
 
+    const validate = () => {
+        let newErrors = {};
+
+        if (!formData.title.trim()) {
+            newErrors.title = "Title required";
+        }
+        if (!formData.ingredients.trim()) {
+            newErrors.ingredients = "Ingredients field can't be empty";
+        }
+        if (!formData.steps.trim()) {
+            newErrors.steps = "Steps can't be empty";
+        }
+
+        setErrors(newErrors);
+
+        return Object.keys(newErrors).length === 0;
+    }
+
     const handleSubmit = (e) => {
         e.preventDefault();
+
+        if (validate()) {
+            console.log(formData);
+        }
     }
 
     return (
