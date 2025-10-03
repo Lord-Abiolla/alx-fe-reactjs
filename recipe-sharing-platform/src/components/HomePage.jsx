@@ -10,7 +10,7 @@ function HomePage() {
     }, []);
 
     return (
-        <ul className="mx-auto max-w-7xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <ul className="mx-auto max-w-7xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             <h2 className="col-span-full font-bold text-3xl text-center mb-9 text-green-950">
                 Recipe Sharing Platform
             </h2>
