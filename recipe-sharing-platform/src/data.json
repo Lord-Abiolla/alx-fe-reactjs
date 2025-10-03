@@ -4,6 +4,19 @@
         "title": "Spaghetti Carbonara",
         "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
         "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.modernhoney.com%2Fwp-content%2Fuploads%2F2023%2F02%2FSpaghetti-Carbonara-3-crop-scaled.jpg&f=1&nofb=1&ipt=c67ebbc9be131b09a65ee517383a61d85adaf8a64bfae77911fd1dfbdd35ece4",
+        "ingredients": [
+            "500g chicken breast, cubed",
+            "1 cup yogurt",
+            "1 tbsp lemon juice",
+            "2 tsp garam masala",
+            "1 tsp turmeric",
+            "1 tsp chili powder",
+            "2 onions, chopped",
+            "2 cups tomato puree",
+            "1/2 cup cream",
+            "2 tbsp butter",
+            "Salt to taste"
+        ],
         "steps": [
             "Marinate chicken pieces in yogurt, lemon juice, garlic, ginger, and spices for at least 1 hour.",
             "Grill or pan-fry the marinated chicken until cooked through and slightly charred.",
