@@ -9,12 +9,8 @@ function AddRecipeForm() {
     });
 
     const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData((prev) => ({
-            ...prev,
-            [name]: value
-        }))
-    }
+        setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }));
+    };
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -33,6 +29,7 @@ function AddRecipeForm() {
                     type="text"
                     name="title"
                     onChange={handleChange}
+                    value={formData.title}
                     placeholder="Title"
                     required
                 />
@@ -40,13 +37,15 @@ function AddRecipeForm() {
                     className="rounded-lg mb-4 p-3 outline-none"
                     name="ingredients"
                     onChange={handleChange}
+                    value={formData.ingredients}
                     placeholder="List ingredients here..."
                     required
                 ></textarea>
                 <textarea
                     className="rounded-lg p-3 outline-none"
-                    name="ingredients"
+                    name="steps"
                     onChange={handleChange}
+                    value={formData.steps}
                     placeholder="Preparation steps here..."
                     required
                 ></textarea>
