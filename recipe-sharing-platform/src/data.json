@@ -3,12 +3,29 @@
         "id": 1,
         "title": "Spaghetti Carbonara",
         "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.modernhoney.com%2Fwp-content%2Fuploads%2F2023%2F02%2FSpaghetti-Carbonara-3-crop-scaled.jpg&f=1&nofb=1&ipt=c67ebbc9be131b09a65ee517383a61d85adaf8a64bfae77911fd1dfbdd35ece4"
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.modernhoney.com%2Fwp-content%2Fuploads%2F2023%2F02%2FSpaghetti-Carbonara-3-crop-scaled.jpg&f=1&nofb=1&ipt=c67ebbc9be131b09a65ee517383a61d85adaf8a64bfae77911fd1dfbdd35ece4",
+        "steps": [
+            "Marinate chicken pieces in yogurt, lemon juice, garlic, ginger, and spices for at least 1 hour.",
+            "Grill or pan-fry the marinated chicken until cooked through and slightly charred.",
+            "In a pan, heat butter and sauté onions until golden.",
+            "Add ginger-garlic paste, tomatoes, and spices (garam masala, turmeric, chili powder). Cook until thick.",
+            "Stir in cream and simmer until smooth.",
+            "Add the cooked chicken to the sauce and simmer for 10 minutes.",
+            "Garnish with coriander and serve hot with rice or naan."
+        ]
     },
     {
         "id": 2,
         "title": "Chicken Tikka Masala",
         "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
-        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.licious.in%2Fblog%2Fwp-content%2Fuploads%2F2020%2F12%2FChicken-Tikka-Masala-min.jpg&f=1&nofb=1&ipt=b6351ca18d96a9aad70cde78b0e4de35a2f1a46009e00f0d3553e4e8330cd56c"
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.licious.in%2Fblog%2Fwp-content%2Fuploads%2F2020%2F12%2FChicken-Tikka-Masala-min.jpg&f=1&nofb=1&ipt=b6351ca18d96a9aad70cde78b0e4de35a2f1a46009e00f0d3553e4e8330cd56c",
+        "steps": [
+            "Heat olive oil in a pan, sauté onions, garlic, carrots, and celery until soft.",
+            "Add ground beef and cook until browned.",
+            "Stir in tomato paste, canned tomatoes, and Italian herbs.",
+            "Simmer the sauce for at least 30 minutes until rich and thick.",
+            "Meanwhile, cook spaghetti in salted boiling water until al dente.",
+            "Serve spaghetti topped with the bolognese sauce and grated Parmesan cheese."
+        ]
     }
 ]
