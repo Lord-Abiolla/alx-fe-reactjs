@@ -1,11 +1,11 @@
+import HomePage from './components/HomePage';
+
 function App() {
 
   return (
-    <>
-      <p className="text-3xl font-bold text-blue-500 underline">
-        Hello world!
-      </p>
-    </>
+    <div className='items-center justify-center p-10 bg-green-100 h-screen'>
+      <HomePage />
+    </div>
   )
 }
 
