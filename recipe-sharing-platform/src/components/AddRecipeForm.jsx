@@ -36,12 +36,17 @@ function AddRecipeForm() {
         e.preventDefault();
 
         if (validate()) {
+            setFormData({
+                title: "",
+                ingredients: "",
+                steps: ""
+            })
             console.log(formData);
         }
     }
 
     return (
-        <div className="bg-green-500 max-w-lg mx-auto p-3  rounded-lg">
+        <div className="bg-green-500 max-w-lg mx-auto p-3  rounded-lg shadow-lg md:max-w-xl">
             <form
                 onSubmit={handleSubmit}
                 className="flex flex-col p-3"
