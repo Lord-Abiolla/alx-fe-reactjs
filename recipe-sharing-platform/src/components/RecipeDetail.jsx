@@ -39,9 +39,9 @@ function RecipeDetail() {
 
                 <h2 className="mt-5 font-bold text-green-900">Instructions</h2>
                 <ol className="list-decimal ml-6 text-sm text-gray-700">
-                    {recipe.steps.map((step, index) => (
+                    {recipe.instructions.map((instruction, index) => (
                         <li key={index}>
-                            <span className="font-semibold"></span> {step}
+                            <span className="font-semibold"></span> {instruction}
                         </li>
                     ))}
                 </ol>
