@@ -16,9 +16,14 @@ function AddRecipeForm() {
         }))
     }
 
+    const handleSubmit = (e) => {
+        e.preventDefault();
+    }
+
     return (
         <div className="bg-green-500 max-w-lg mx-auto p-3  rounded-lg">
             <form
+                onSubmit={handleSubmit}
                 className="flex flex-col p-3"
             >
                 <h2
