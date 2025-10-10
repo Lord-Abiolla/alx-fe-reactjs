@@ -1,5 +1,5 @@
 import React from "react";
-import PostsComponent from "./PostsComponent";
+import PostsComponent from "./components/PostsComponent";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 const queryClient = new QueryClient();
